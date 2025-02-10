@@ -1,6 +1,7 @@
 import random
 from words import words
 import string
+from termcolor import colored
 
 def get_valid_word(words):
     word = random.choice(words) 
